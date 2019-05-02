@@ -1,16 +1,13 @@
-James Owens 
-Final Project
-Tizio
 
-##About
+#About
 
 This game is an infinitely scrolling platformer. The objective is to make it as far as possible, jumping over obstacles as they come. It is built using libgdx (https://libgdx.badlogicgames.com/). 
 
-##Screencast
+#Screencast
 
-A screencast of the working app is available: 
+A screencast of the working app is available: https://youtu.be/Sgjj-9dZPHE
 
-##Running 
+#Running 
 
 The easiest way to run the project is by opening the project folder in Adnriod Studio. Run the gradle build. You may need to point the application to the andriod apk on your hard drive.
 
@@ -25,13 +22,13 @@ There are basically 3 types of classes in this project
 
 There are a few other classes that provide utility to the app such as animation or managing a group of entities. 
 
-##GDX Terms
+#GDX Terms
 
 - **DeltaTime:** provided to update, represents the amount of time since the previous frame was rendered
 - **SpriteBatch** I group of textures that can will be drawn on the canvas
 - **Texture:** an image that can be drawn on the scren
 
-##The Game Loop
+#The Game Loop
 
 The game loop consists of 3 phases
 
@@ -40,9 +37,9 @@ The game loop consists of 3 phases
 - **Render:** now that there is an updated state
 
 
-##UML 
+#UML 
 
-![UML](Screen Shot 2019-05-02 at 2.14.57 PM.png)
+
 
 This does not show the specific scenes of the game. The all inherit from scene and just serve to create the building blocks that are diagram. 
 
